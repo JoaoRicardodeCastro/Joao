@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho - A Importância do Agronegócio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVEGAÇÃO -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🌾 Agrinho</div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#importancia">Importância</a></li>
+                <li><a href="#influencia">Influência</a></li>
+                <li><a href="#arvores">Árvores</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SEÇÃO HOME -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo ao Agrinho</h1>
+            <p>Descubra a importância do agronegócio para o nosso mundo</p>
+            <button class="btn" onclick="scrollToSection('importancia')">Saiba Mais</button>
+        </div>
+    </section>
+
+    <!-- SEÇÃO IMPORTÂNCIA -->
+    <section id="importancia" class="section">
+        <div class="container">
+            <h2>A Importância do Agro para o Mundo</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-icon">🌱</div>
+                    <h3>Alimentação Global</h3>
+                    <p>O agronegócio é responsável por alimentar mais de 8 bilhões de pessoas no planeta.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💼</div>
+                    <h3>Economia</h3>
+                    <p>Representa bilhões em movimentação econômica e emprego em todo o mundo.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌍</div>
+                    <h3>Sustentabilidade</h3>
+                    <p>Práticas modernas buscam equilibrio entre produção e preservação ambiental.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO INFLUÊNCIA -->
+    <section id="influencia" class="section bg-light">
+        <div class="container">
+            <h2>Como o Agro Nos Influencia</h2>
+            <div class="content-grid">
+                <div class="text-content">
+                    <h3>Impacto na Nossa Vida Diária</h3>
+                    <ul>
+                        <li>🍎 Alimentos que comemos vêm do agronegócio</li>
+                        <li>👕 Roupas de algodão e fibras naturais</li>
+                        <li>⛽ Combustíveis renováveis como etanol</li>
+                        <li>💊 Medicamentos com origem em plantas</li>
+                        <li>🏠 Madeira e materiais de construção</li>
+                    </ul>
+                </div>
+                <div class="image-content">
+                    <div class="placeholder-image">
+                        🌾 Imagem do Campo
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO ÁRVORES -->
+    <section id="arvores" class="section">
+        <div class="container">
+            <h2>O Que Aconteceria Sem as Árvores?</h2>
+            <div class="warning-box">
+                <h3>⚠️ Consequências Críticas</h3>
+                <div class="consequences">
+                    <div class="consequence">
+                        <h4>Oxigênio</h4>
+                        <p>As árvores produzem 28% do oxigênio que respiramos. Sem elas, teríamos graves problemas respiratórios.</p>
+                    </div>
+                    <div class="consequence">
+                        <h4>Clima</h4>
+                        <p>Aumento descontrolado de CO₂ na atmosfera causaria aquecimento global acelerado.</p>
+                    </div>
+                    <div class="consequence">
+                        <h4>Erosão do Solo</h4>
+                        <p>Sem raízes, o solo desapareceria, tornando impossível o cultivo de alimentos.</p>
+                    </div>
+                    <div class="consequence">
+                        <h4>Biodiversidade</h4>
+                        <p>70% das espécies terrestres vivem em florestas. Perderíamos a fauna e flora.</p>
+                    </div>
+                    <div class="consequence">
+                        <h4>Água</h4>
+                        <p>Árvores regulam o ciclo da água. Sem elas, haveria secas e enchentes extremas.</p>
+                    </div>
+                    <div class="consequence">
+                        <h4>Economia</h4>
+                        <p>Colapso econômico dos setores agrícola, florestal e de turismo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO -->
+    <section id="contato" class="section bg-light">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Agrinho - Todos os direitos reservados. Feito com ❤️ para a educação ambiental.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
