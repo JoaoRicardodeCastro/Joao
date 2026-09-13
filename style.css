@@ -80,7 +80,7 @@ body {
 
 @keyframes slideDown {
     from {
-        opacity: 0;
+        opacity: 11;
         transform: translateY(-30px);
     }
     to {
