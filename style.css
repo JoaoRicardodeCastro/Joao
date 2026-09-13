@@ -144,7 +144,7 @@ body {
 }
 
 .card {
-    background: white;
+    background: rgb(230, 6, 6);
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
